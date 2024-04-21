@@ -1,0 +1,217 @@
+
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: darksalmon !important;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/swiss-valley.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+header h1{
+    font-size: 4rem;
+    margin-bottom: 50px;
+    font-family: "Platypi", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+    font-family: "Platypi", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.4rem;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+nav a:focus{
+    color: blueviolet;
+}
+
+nav a:active{
+    color: blueviolet;
+}
+
+main {
+    width: 80%;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Lugrasimo", cursive;
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 1.1rem;
+    background-color: blanchedalmond;
+    padding: 100px;
+}
+
+h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#intro {
+    margin-bottom: 150px;
+    
+}
+
+#intro p{
+    display: block;
+    margin: 0 auto;
+}
+
+.article h3{
+   text-align: center;
+}
+
+.article {
+    width: 48%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+.features img {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+    padding: 50px 0; 
+}
+
+
+/* contact.html style */
+
+
+
+#contact{
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 1440px;
+
+}
+
+
+#contact1{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#contact1 h2{
+    grid-column: 1/-1;
+}
+
+#contact1 p{
+    display: block;
+    margin-bottom: 50px;
+    grid-column: 1/-1;
+}
+
+#contact1 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    min-width: 75%;
+}
+
+#contact2{
+    display: block;
+    margin: 150px auto 0;
+    padding-top: 50px;
+}
+    
+
+form > label{
+    display: block;
+    padding-top: 20px;
+}
+
+form > input{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+}
+
+
+fieldset{
+    display: block;
+    padding: 20px 10px !important;
+    width: 100%;
+    margin-top: 10px !important;
+}
+
+legend{
+    font-size: 1.2rem !important;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    margin-top: 100px; 
+    padding: 10px;  
+    font-family: "Lugrasimo", cursive;
+}
+
+textarea{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* OBFUSCATED BY CSSOBFUSCATOR.COM at 2024/04/21 13:21:11 */
+header h1{font-size:4rem;}body{font-family:Arial,sans-serif;}header h1{margin-bottom:.520833333in;}.article h3,header{text-align:center;}.features img,#contact,#contact1 p,header,#contact1 img,footer,input[type="submit"],#intro p{display:block;}body{box-sizing:border-box;}[class~=article]{width:48%;}.features img{width:100%;}#intro{margin-bottom:112.5pt;}.features img,#contact2,#contact,#contact1 img,footer,main,header,#intro p{margin-left:auto;}header h1,nav li{font-family:"Platypi",serif;}body{background-color:darksalmon !important;}header{width:100vw;}header{height:100vh;}nav li,header h1{font-weight:bold;}header h1,nav li{font-style:normal;}.features img{max-width:525pt;}main,#intro p,nav li,#contact,header{margin-bottom:0;}nav ul{list-style:none;}header{background-image:url("images/swiss-valley.jpg");}header{background-position:center;}nav ul{display:flex;}header{background-size:cover;}.features img{height:auto;}header{background-repeat:no-repeat;}nav ul{justify-content:space-around;}header{background-attachment:fixed;}#contact1 img,#intro p,footer,.features img,header,#contact,#contact2,main{margin-right:auto;}nav ul,header{align-content:center;}nav li{margin-left:.15625in;}#contact1 img,header,main,footer,.features img,#contact,nav li,#intro p{margin-top:0;}#contact1 p,#contact1 h2{grid-column:1/-1;}main{width:80%;}main{height:100%;}nav li{margin-right:.15625in;}main,#contact{max-width:1440px;}.features img{margin-bottom:.625pc;}#contact1 p,h2{margin-bottom:37.5pt;}main{font-family:"Lugrasimo",cursive;}main{font-weight:normal;}#contact{width:80vw;}main{font-style:normal;}main{font-size:1.1rem;}main{background-color:blanchedalmond;}nav li{font-size:1.4rem;}nav a:hover{color:aqua;}nav a{text-decoration:none;}main{padding-left:6.25pc;}[class~=article],footer,h2{text-align:center;}nav a{color:black;}main{padding-bottom:6.25pc;}main{padding-right:6.25pc;}footer,#contact1 img{margin-bottom:0;}main{padding-top:6.25pc;}input[type="submit"],#contact1 img{width:100%;}input[type="submit"]{margin-top:1.041666667in;}footer{width:100vw;}[class~=article]{padding-bottom:3.125pc;}input[type="submit"]{padding-left:7.5pt;}input[type="submit"]{padding-bottom:7.5pt;}#contact1{display:grid;}input[type="submit"]{padding-right:7.5pt;}footer{background-color:gray;}footer{padding-left:0;}#contact2,fieldset,form > label{display:block;}form > label{padding-top:15pt;}#contact1{grid-template-columns:1fr;}footer{padding-bottom:.520833333in;}nav a:active,nav a:focus{color:blueviolet;}footer{padding-right:0;}input[type="submit"]{padding-top:7.5pt;}footer{padding-top:.520833333in;}fieldset,form > input,textarea{width:100%;}#contact1 img{height:auto;}fieldset{padding-left:7.5pt !important;}form > input{font-family:"Courier New",Courier,monospace;}form > input{padding-bottom:1.25pc;}#contact1 img{min-width:75%;}fieldset{padding-bottom:1.25pc !important;}fieldset{padding-right:7.5pt !important;}[class~=features],#contact1{justify-content:space-between;}#contact1{align-content:center;}fieldset{padding-top:1.25pc !important;}fieldset{margin-top:10px !important;}input[type="submit"]{font-family:"Lugrasimo",cursive;}legend{font-size:1.2rem !important;}[class~=features]{display:flex;}#contact2{margin-bottom:0;}#contact2{margin-top:112.5pt;}#contact2{padding-top:37.5pt;}[class~=features]{margin-bottom:.208333333in;}
